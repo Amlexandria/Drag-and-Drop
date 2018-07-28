@@ -1,0 +1,30 @@
+main {
+    margin-top: 3rem;
+}
+
+h6 {
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+#first-image {
+   background-color: red;
+   height: 15rem; 
+   width: 100%;
+}
+
+#second-image{
+    background-color: blue;
+    height: 7.5rem; 
+    width: 100%;  
+}
+
+#third-image {
+    background-color: yellow;
+    height: 7.5rem; 
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
