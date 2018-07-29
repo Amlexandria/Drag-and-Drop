@@ -24,30 +24,41 @@
         <div id="collage-container" class="offset-s1 col s10">
             <div class="col s6 push-s6">
                 <div class="row">
-                    <div id="first-image" class="col s-12"></div>
+                    <div id="first-image" class="col s-12 available-to-drop"></div>
                 </div>  
             </div>
             <div class="col s6 pull-s6">
                 <div class="row">
-                    <div id="second-image" class="col s-12"></div>
-                    <div id="third-image" class="col s-12"></div>
+                    <div id="second-image" class="col s-12 available-to-drop"></div>
+                    <div id="third-image" class="col s-12 available-to-drop"></div>
                 </div>
             </div>
         </div>
     </main>
     <section id="gallery-1" class="row">
-        <img class="col s4" src="https://i.pinimg.com/564x/d6/7a/60/d67a60c115c1628255c83ce230825c4d.jpg" alt="">
-        <img class="col s4" src="https://i.pinimg.com/564x/71/85/6f/71856fb3be6c49cd03c834caffe40a6d.jpg" alt="">
-        <img class="col s4" src="https://i.pinimg.com/564x/16/93/93/169393c78a4bdcda2807f5a51926245a.jpg" alt="">
-         
+        <div class="offset-s1 col s10">
+            <div class="row">
+                    <img class="col s4 for-collage" draggable="true" src="https://i.pinimg.com/564x/d6/7a/60/d67a60c115c1628255c83ce230825c4d.jpg" alt="">
+                    <img class="col s4 for-collage" draggable="true" src="https://i.pinimg.com/564x/71/85/6f/71856fb3be6c49cd03c834caffe40a6d.jpg" alt="">
+                    <img class="col s4 for-collage" draggable="true" src="https://i.pinimg.com/564x/16/93/93/169393c78a4bdcda2807f5a51926245a.jpg" alt="">
+            </div>
+        </div>   
     </section>
     <section id="gallery-2" class="row">
-            <img class="col s4" src="https://i.pinimg.com/564x/7c/5b/12/7c5b120802e8bb1780f86aa125571f8d.jpg" alt="">
-            <img class="col s4" src="https://i.pinimg.com/564x/e4/81/aa/e481aae341b34ca648ed2bc64da219f6.jpg" alt="">
-            <img class="col s4" src="https://i.pinimg.com/564x/d9/df/a3/d9dfa34613085e5fb5e126f261cd5e22.jpg" alt="">     
+        <div class="offset-s1 col s10">
+            <div class="row">
+                <img class="col s4 for-collage" draggable="true" src="https://i.pinimg.com/564x/7c/5b/12/7c5b120802e8bb1780f86aa125571f8d.jpg" alt="">
+                <img class="col s4 for-collage" draggable="true" src="https://i.pinimg.com/564x/e4/81/aa/e481aae341b34ca648ed2bc64da219f6.jpg" alt="">
+                <img class="col s4 for-collage" draggable="true" src="https://i.pinimg.com/564x/d9/df/a3/d9dfa34613085e5fb5e126f261cd5e22.jpg" alt="">     
+            </div>
+        </div> 
     </section>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
