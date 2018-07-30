@@ -1,3 +1,7 @@
+nav {
+    background-color: #566573;
+}
+
 main {
     margin-top: 3rem;
 }
@@ -12,19 +16,19 @@ h6 {
 }
 
 #first-image {
-   background-color: red;
+   background-color:#FADBD8;
    height: 15rem; 
    width: 100%;
 }
 
 #second-image{
-    background-color: blue;
+    background-color:#E8DAEF;
     height: 7.5rem; 
     width: 100%;  
 }
 
 #third-image {
-    background-color: yellow;
+    background-color:#F2D7D5;
     height: 7.5rem; 
     width: 100%;
 }
