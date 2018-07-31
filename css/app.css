@@ -1,5 +1,10 @@
 nav {
-    background-color: #566573;
+    background-color: black;
+}
+
+nav .brand-logo {
+    color: #FADBD8;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 main {
@@ -8,7 +13,8 @@ main {
 
 h6 {
     margin-bottom: 1rem;
-    margin-left: 2rem;
+    margin-left: 2.3rem;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 .available-to-drop.over {
@@ -19,26 +25,50 @@ h6 {
    background-color:#FADBD8;
    height: 15rem; 
    width: 100%;
+   padding-top: .4rem;
 }
 
 #second-image{
     background-color:#E8DAEF;
     height: 7.5rem; 
-    width: 100%;  
+    width: 100%;
+    padding-top: .5rem;
 }
 
 #third-image {
     background-color:#F2D7D5;
     height: 7.5rem; 
     width: 100%;
+    padding-top: .5rem;
 }
 
-img {
+#collage-container {
+    /* background-color: black; */
+    border: 3px solid black;
+    border-radius: .3rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.for-collage {
     width: 100%;
     cursor: move;
 }
 
-/* .fill-container img {
+
+#gallery-1 .row .col {
+    padding: 0.1rem;
+    border-radius: .5rem;
+}
+
+#gallery-2 .row .col {
+    padding: 0.1rem;
+    border-radius: .5rem;
+}
+
+
+.fill-container img {
     width: 100%;
     height: 100%;
-} */
+    /* margin-top: 1rem; */
+}
